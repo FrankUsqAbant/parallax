@@ -1,0 +1,101 @@
+body {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  height: 7000px;
+
+  background-image: url(./img/clouds2.png), url(./img/capifondo.png),
+    url(./img/asgard.png);
+  background-repeat: repeat-x, repeat-x, repeat-x;
+  background-position: 0 100vh, 0 350vh, 0 620vh;
+  background-size: contain, contain, contain;
+
+  padding: 0;
+  margin: 0;
+}
+
+.logo {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  height: 110vh;
+}
+
+.scroll-tip {
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 48px;
+}
+
+.ironman-title {
+  text-align: center;
+  padding: 100px 0;
+  font-size: 15em;
+}
+
+.ironman-02 {
+  position: absolute;
+  top: 2500px;
+}
+
+.captain-title {
+  text-align: center;
+  padding: 100px 0;
+  font-size: 15em;
+}
+
+.shield02 {
+  position: absolute;
+  margin-top: -870px;
+  margin-left: 470px;
+}
+
+.rayo-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.rayo {
+  background-color: rgb(144, 233, 255);
+  width: 100%;
+  height: 150vh;
+}
+
+.thor-title {
+  font-size: 15em;
+  text-align: center;
+  padding-top: 200px;
+  letter-spacing: -20px;
+  margin-top: -700px;
+}
+
+.thor02 {
+  display: flex;
+  margin-left: 100px;
+  justify-content: center;
+  text-align: center;
+}
+
+.avengers-logo {
+  text-align: center;
+  height: 80vh;
+
+  padding-top: 100px;
+}
+
+.avengers-logo img {
+  width: 805;
+}
